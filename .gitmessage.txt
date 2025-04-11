@@ -1,0 +1,18 @@
+# Choose a commit type:
+# feat: New feature
+# fix: Bug fix
+# docs: Documentation update
+# style: Code style changes (formatting, missing semi-colons, etc.)
+# refactor: Code refactoring (no functional changes)
+# perf: Performance improvement
+# test: Adding or updating tests
+# chore: Maintenance tasks (e.g., updating dependencies)
+
+<type>: <short summary>
+
+# Detailed description (optional)
+# - Why this change was made
+# - Additional context or impacts
+
+# Footer (optional)
+# - References to GitHub issues, tickets, etc.
