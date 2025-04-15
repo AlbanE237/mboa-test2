@@ -80,10 +80,12 @@ I'm planning to add:
 🤝 Contributing
 I'm learning — but you're welcome to fork the repo, suggest improvements, or just leave a star ⭐.
 
-📬 Contact
-📌 Alban Eboua
-🔗 LinkedIn
-💻 GitHub
+## 📬 Contact
+
+**👤 Name**: Alban Eboua  
+**🔗 LinkedIn**: [linkedin.com/in/albaneboua](https://www.linkedin.com/in/albaneboua/)  
+**💻 GitHub**: [github.com/AlbanE237](https://github.com/AlbanE237)
+
 
 🧠 Final Words
 Mistakes were made.
