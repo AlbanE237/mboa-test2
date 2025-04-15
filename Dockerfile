@@ -1,20 +1,20 @@
-# Utiliser une image officielle de Python
+# Use an official Python image as a base
 FROM python:3.11-slim
 
-# Définir le répertoire de travail dans le conteneur
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copier les fichiers requirements.txt en premier pour optimiser le cache Docker
+# Copy the requirements file first to leverage Docker cache
 COPY requirements.txt .
 
-# Installer les dépendances Python
+# Install Python dependencies listed in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copier tout le reste du projet
+# Copy the rest of the application code
 COPY . .
 
-# Exposer le port 5000 pour accéder à l'application Flask
+# Expose port 5000 to access the Flask app from outside the container
 EXPOSE 5000
 
-# Commande pour démarrer l'application
+# Default command to run the Flask application
 CMD ["python", "app.py", "--host=0.0.0.0"]
